@@ -1,16 +1,23 @@
-# React + Vite
+# Car-Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite project for a simple car game.
 
-Currently, two official plugins are available:
+## Local development
+1. npm install
+2. npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app will start on the URL printed in the terminal.
 
-## React Compiler
+## Build
+- npm run build
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Preview production build
+- npm run preview
 
-## Expanding the ESLint configuration
+## Backend (optional)
+A simple Python backend is included in app.py.
+- Ensure Python 3 is installed
+- pip install -r requirements.txt (if you add dependencies)
+- python app.py
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Update README as the project evolves.
